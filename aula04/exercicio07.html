@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio07</title>
+</head>
+<body>
+    <script>
+        let numero = prompt("Digite um número:");
+        if (numero < 2) {
+            alert("Não é primo");
+        } else {
+            for (let i = 2; i < numero; i++) {
+                if (numero % i === 0) {
+                    alert("Não é primo");
+                    break;
+                }
+            }
+            alert("É primo");
+        }
+    </script>
+</body>
+</html>
